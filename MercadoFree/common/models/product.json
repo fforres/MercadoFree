@@ -1,0 +1,32 @@
+{
+  "name": "product",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "urlimagen": {
+      "type": "string",
+      "required": true
+    },
+    "comentario": {
+      "type": "string",
+      "required": true
+    },
+    "valor": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "tags": {
+      "type": "hasOne",
+      "model": "tag",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": []
+}

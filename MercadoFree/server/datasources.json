@@ -1,0 +1,10 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mercadoFree": {
+    "name": "mercadoFree",
+    "connector": "mongodb"
+  }
+}

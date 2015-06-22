@@ -1,0 +1,11 @@
+<div class="col-xs-12" ng-init="findAll()">
+    <h1>Mis productos</h1>
+    <div class="col-xs-12" ng-repeat="product in products">
+        <div class="col-xs-4">
+            <img src="{{product.urlimagen}}" class="img-responsive" />
+        </div>
+        <div class="col-xs-8">
+            <a href="product/{{product.id}}">{{product.comentario}}</a>
+        </div>
+    </div>
+</div>
